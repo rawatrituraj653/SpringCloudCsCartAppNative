@@ -20,7 +20,7 @@ public class CartAppRestController {
 	@GetMapping("/data")
 	public String  getMsg() {
 		
-		return data+": This is Combined: "+msg;
-		
+		return data+": This is Combined: "+msg;		
 	}
+	
 }
